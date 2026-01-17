@@ -51,4 +51,4 @@ stages:
         inputs:
           targetType: 'inline'
           script: |
-            cp -r /home/azureuser/drop/* /var/www/html
+            sudo cp -r /home/azureuser/drop/* /var/www/html
