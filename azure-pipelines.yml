@@ -53,4 +53,4 @@ stages:
           script: |
             sudo apt-get update
             sudo apt-get install nginx -y
-            cp -r /home/azureuser/build/* var/www/html
+            cp -r /home/azureuser/drop/* var/www/html
