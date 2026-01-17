@@ -43,7 +43,7 @@ stages:
       - task: CopyFilesOverSSH@0
         inputs:
           sshEndpoint: 'appservice'
-          sourceFolder: 'System.ArtifactsDirectory'
+          sourceFolder: '$(System.ArtifactsDirectory)'
           contents: '**'
           targetFolder: '/home/azureuser'
           readyTimeout: '20000'
