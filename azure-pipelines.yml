@@ -51,6 +51,4 @@ stages:
         inputs:
           targetType: 'inline'
           script: |
-            sudo apt-get update -y
-            sudo apt-get install nginx -y
-            cp -r /home/azureuser/drop/* ./var/www/html
+            cp -r /home/azureuser/drop/* /var/www/html
